@@ -1,0 +1,25 @@
+.new-todo-form {
+  border: 2px solid mediumseagreen;
+  border-radius: 8px;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 5px;
+  background-color: mistyrose;
+}
+
+.new-todo-input {
+  height: 25px;
+  width: 400px;
+  margin-right: 5px;
+  padding: 2px;
+  background-color: rgb(248, 240, 191);
+  border-radius: 8px;
+}
+
+.new-todo-button {
+  background-color: mediumseagreen;
+  height: 30px;
+  border-radius: 8px;
+}

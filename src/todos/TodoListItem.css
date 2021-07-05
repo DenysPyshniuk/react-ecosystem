@@ -1,0 +1,34 @@
+.todo-item-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 5px;
+  height: 25px;
+  width: 85%;
+  border: 1px solid rgb(231, 216, 2);
+  border-radius: 8px;
+  background-color: palegoldenrod;
+}
+
+.todo {
+  margin: 0;
+  padding-right: 10px;
+}
+
+.buttons-container {
+}
+
+.buttons-completed {
+  height: 25px;
+  width: 30px;
+  margin-right: 5px;
+  background-color: mediumseagreen;
+  border-radius: 5px;
+}
+
+.buttons-remove {
+  height: 25px;
+  background-color: rgb(214, 38, 31);
+  border-radius: 5px;
+}
