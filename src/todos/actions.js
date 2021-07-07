@@ -9,3 +9,9 @@ export const removeTodo = (text) => ({
   type: REMOVE_TODO,
   payload: { text },
 });
+
+export const SET_AS_MARKED_TODO = "SET_AS_MARKED_TODO";
+export const setAsMarkedTodo = (text) => ({
+  type: SET_AS_MARKED_TODO,
+  payload: { text },
+});
